@@ -8,15 +8,16 @@
     display: flex;
     flex-wrap: wrap;
     box-sizing: border-box;
+    flex-direction: row;
+    flex-shrink: 0;
 }
 
-.Widgets{
-    margin: 0;
+.test1 {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
     box-sizing: border-box;
-    padding: 0 15px !important;
-    flex-grow: 0;
-    max-width: 25%;
-    flex-basis: 25%;
+    flex-direction: row;
 }
 
 .WidgetInner {
@@ -36,24 +37,24 @@
     flex-direction: column;
 }
 
-.wd1.wd3.jss470 {
+.wid1_1.wid1_3.wid1_4 {
     text-align: right;
 }
-.jss470.wd2, .jss470.jss473, .jss470.jss474, .jss470.jss475, .jss470.jss476, .jss470.jss477 {
+.wid1_4.wid1_2, .wid1_4.wid2_1, .wid1_4.jss474, .wid1_4.jss475, .wid1_4.jss476, .wid1_4.jss477 {
     background: transparent;
     box-shadow: none;
 }
-.wd1:first-child {
+.wid1_1:first-child {
     border-radius: calc(.25rem - 1px) calc(.25rem - 1px) 0 0;
 }
-.wd1.jss465, .wd1.jss466, .wd1.jss467, .wd1.jss468, .wd1.jss470, .wd1.wd3, .wd1.wd2, .wd1.jss473, .wd1.jss474, .wd1.jss475, .wd1.jss476, .wd1.jss477 {
+.wid1_1.jss465, .wid1_1.jss466, .wid1_1.jss467, .wid1_1.jss468, .wid1_1.wid1_4, .wid1_1.wid1_3, .wid1_1.wid1_2, .wid1_1.wid2_1, .wid1_1.jss474, .wid1_1.jss475, .wid1_1.jss476, .wid1_1.jss477 {
     color: #FFF;
     margin: 0 15px;
     padding: 0;
     position: relative;
 }
 
-.WidgetIcon.WidgetAttainmentIcon, .WidgetIcon.WidgetRevenueIcon, .WidgetIcon.jss481, .WidgetIcon.jss482, .WidgetIcon.jss483, .WidgetIcon.jss484 {
+.WidgetIcon.Widget1Icon, .WidgetIcon.Widget2Icon, .WidgetIcon.Widget3Icon, .WidgetIcon.Widget4Icon {
 
     float: left;
     padding: 15px;
@@ -64,24 +65,32 @@
 
 }
 
-.WidgetAttainmentIcon 
+.Widget1Icon 
 {
-    background: linear-gradient(60deg, #ffa726, #fb8c00);
+    background: linear-gradient(60deg, #ffa726, #f1d42b);
     background-color: rgba(0, 0, 0, 0);
     box-shadow: 0 4px 20px 0 rgba(0, 0, 0,.14), 0 7px 10px -5px rgba(255, 152, 0,.4);
 }
 
-.WidgetRevenueIcon {
+.Widget2Icon {
 
-    background: linear-gradient(60deg, #66bb6a, #43a047);
+    background: linear-gradient(60deg, #66bb6a, #1bd637);
         background-color: rgba(0, 0, 0, 0);
     box-shadow: 0 4px 20px 0 rgba(0, 0, 0,.14), 0 7px 10px -5px rgba(76, 175, 80,.4);
 
 }
 
-.jss481 {
+.Widget4Icon {
 
-    background: linear-gradient(60deg, #ef5350, #e53935);
+    background: linear-gradient(60deg, #66bb6a, #267abe);
+        background-color: rgba(0, 0, 0, 0);
+    box-shadow: 0 4px 20px 0 rgba(0, 0, 0,.14), 0 7px 10px -5px rgba(76, 175, 80,.4);
+
+}
+
+.Widget3Icon {
+
+    background: linear-gradient(60deg, #ef5350, #f13029);
         background-color: rgba(0, 0, 0, 0);
     box-shadow: 0 4px 20px 0 rgba(0, 0, 0,.14), 0 7px 10px -5px rgba(244, 67, 54,.4);
 
@@ -96,12 +105,7 @@
 }
 
 
-
-
-
-
-
-.wd1.wd3 .fab, .wd1.wd3 .fas, .wd1.wd3 .far, .wd1.wd3 .fal, .wd1.wd3 .material-icons {
+.wid1_1.wid1_3 .fab, .wid1_1.wid1_3 .fas, .wid1_1.wid1_3 .far, .wid1_1.wid1_3 .fal, .wid1_1.wid1_3 .material-icons {
 
     width: 56px;
     height: 56px;
@@ -273,3 +277,15 @@ background-color: transparent;
     touch-action: none;
 
 }
+
+
+
+
+
+
+@media (min-width:320px)  { /* smartphones, iPhone, portrait 480x320 phones */ }
+@media (min-width:481px)  { /* portrait e-readers (Nook/Kindle), smaller tablets @ 600 or @ 640 wide. */ }
+@media (min-width:641px)  { /* portrait tablets, portrait iPad, landscape e-readers, landscape 800x480 or 854x480 phones */ }
+@media (min-width:961px)  { /* tablet, landscape iPad, lo-res laptops ands desktops */ }
+@media (min-width:1025px) { /* big landscape tablets, laptops, and desktops */ }
+@media (min-width:1281px) { /* hi-res laptops and desktops */ }

@@ -1,0 +1,46 @@
+.WidgetDisplay {
+    width: calc(100% + 30px);
+    margin: 0 -15px;
+}
+
+.WidgetBox {
+    /* width: 100%; */
+    max-width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    flex-direction: row;
+    flex-shrink: 0;
+}
+
+.Widgets{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0 15px !important;
+    /* flex-grow: 0; */
+    flex-shrink: 0;
+    /* max-width: 25%; */
+    flex-basis: 400px;
+    flex-direction: row;
+}
+
+.jss3 {
+    padding: 30px 15px;
+    margin-top: 70px;
+    min-height: calc(100vh - 123px);
+  }
+
+  .jss4 {
+    margin-left: auto;
+    padding-left: 15px;
+    margin-right: auto;
+    padding-right: 15px;
+}
+
+
+.jss4::before, .jss4::after {
+
+    display: table;
+    content: " ";
+
+}

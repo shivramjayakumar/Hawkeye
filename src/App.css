@@ -2,12 +2,14 @@
   text-align: center;
 }
 
-.App-Dashboard {
-  background-color: #eeeeee;
-}
-
 body{
 font-family: Roboto,Helvetica,Arial,sans-serif;
 font-weight: 300;
 line-height: 1.5em;
+background-color: #eee;
+color: #3c4858;
+font-size: 14px;
+
+
 }
+

@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import './App.css';
-import Widget from './Widgets/Widget';
-import AttainmentIcon from './Widgets/images/attainmenticon';
+import WidgetBar from './WidgetBar/WidgetBar';
+import Header from './Header/Header';
 
 class App extends Component {
   render() {
@@ -9,7 +9,8 @@ class App extends Component {
       <div className="App">
 
       <div className="App-Dashboard"></div>
-      <Widget label='Current Attainment' value='75.8' symbol='%' widgeticon ='content_copy' widgetclass = ' WidgetIcon WidgetAttainmentIcon' widgetlowertext='Get Some Insights' widgetlowericon={<AttainmentIcon />}> </Widget>
+       {/* <Header />  */}
+      <WidgetBar /> 
       </div>
     );
   }
