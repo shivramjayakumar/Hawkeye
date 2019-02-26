@@ -10,7 +10,6 @@ class WidgetBar extends Component {
       return (
         <div className='jss3'>
         <div className='jss4'>
-        ::before
            <div className="WidgetDisplay WidgetBox">          
                  <Widget label='Your Attainment' value='75.89' symbol='%' widgeticon ='bar_chart' widgetclass = ' WidgetIcon Widget1Icon' widgetlowertext='Insight into your current and previous performance' widgetlowericon={<Insights />}> </Widget>
                  <Widget  label='Team Attainment' value='75.8' symbol='%' widgeticon ='people' widgetclass = ' WidgetIcon Widget2Icon' widgetlowertext='View Team Performance Details' widgetlowericon={<AttainmentIcon />}> </Widget>

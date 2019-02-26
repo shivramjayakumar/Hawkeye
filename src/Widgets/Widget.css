@@ -53,6 +53,17 @@
     padding: 0;
     position: relative;
 }
+.wd_shadow:hover, .wd_shadow:focus
+{
+        color: #FFF;
+        cursor: zoom-in;
+        /* box-shadow: 0 10px 500px -190px rgba(153, 153, 153, 0.42), 0 4px 23px 0px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(153, 153, 153, 0.2);
+         */
+        border:1px solid;
+        padding: 10px;
+        box-shadow: 5px,10px 8px #888888;
+        background-color:#f0f0f0;
+}
 
 .WidgetIcon.Widget1Icon, .WidgetIcon.Widget2Icon, .WidgetIcon.Widget3Icon, .WidgetIcon.Widget4Icon {
 

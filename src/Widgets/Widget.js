@@ -1,11 +1,14 @@
 import React, { Component } from 'react';
 import './Widget.css';
+// import Example from '../WidgetModal/WidgetModal';
 
 class Widget extends Component {
     render() {
         return (
             <div className="Widgets">
-                        <div className="WidgetInner">
+          <div ClassName ="wd_shadow">
+                        <div className="WidgetInner wd_shadow">
+                     
                             <div className="wid1_1 wid1_2 wid1_3 wid1_4">
                                 <div className={this.props.widgetclass}>
                                     <span className="material-icons" aria-hidden="true">{this.props.widgeticon}</span>
@@ -18,10 +21,13 @@ class Widget extends Component {
                                     <div className="widgetlowerIcon">
                                         {this.props.widgetlowericon}
                                     </div>
-                                    <a href="#beacon">{this.props.widgetlowertext}</a>
+                                            <a href="#beacon"> {this.props.widgetlowertext}</a>
+                
                                 </div>
+                
                             </div>
                         </div>
+                    </div>
                     </div>
         );
     }

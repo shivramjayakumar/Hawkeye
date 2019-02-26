@@ -5,17 +5,20 @@ class Header extends Component
 {
     render() {
         return (
-            <header className="jss93 jss99 jss176 jss177 jss183 mui-fixed jss164">
-            <div className="jss185 jss187 jss186 jss165">
-                <div className="jss69">
-                    <div className="jss173 ">
-                        <button
-                            className="jss244 jss218 jss220 jss223 jss189 jss197 jss214 jss217"
+            
+     <header className="headerblock mui-fixed">
+            <div className="sidebardisplay">
+
+            {/* Side bar button  */}
+                 
+                    <button
+                            className="headerbuttons sidebarbutton  buttonborder"
                             tabindex="0"
                             type="button">
-                            <span className="jss219">
+                            <span className="headericons">
+                                  {/* Side bar icon  */}
                                 <svg
-                                    className="jss146 jss175"
+                                    className="svgicon sidebarbutton1"
                                     focusable="false"
                                     viewBox="0 0 24 24"
                                     aria-hidden="true"
@@ -25,22 +28,17 @@ class Header extends Component
                                         d="M12 8c1.1 0 2-.9 2-2s-.9-2-2-2-2 .9-2 2 .9 2 2 2zm0 2c-1.1 0-2 .9-2 2s.9 2 2 2 2-.9 2-2-.9-2-2-2zm0 6c-1.1 0-2 .9-2 2s.9 2 2 2 2-.9 2-2-.9-2-2-2z"></path>
                                 </svg>
                             </span>
-                            <span className="jss617"></span>
+                            <span className="endbutton"></span>
                         </button>
+            
                     </div>
-                </div>
+                    
 
-                <div className="jss166">
-                    <a
-                        className="jss244 jss218 jss220 jss223 jss189 jss210 jss167"
-                        tabindex="0"
-                        role="button"
-                        href="#beacon">
-                        <span className="jss219">Dashboard</span>
-                        <span className="jss617"></span>
-                    </a>
-                </div>
-                <div className="jss69">
+            {/* Dashboard link */}
+            <div className="headerbarlabel"> Dashboard  </div>
+
+   {/* 
+             <div className="jss69">
                     <div className="">
                         <div className="jss299 jss278 jss272 jss295">
                             <div className="jss316 jss303 jss307 jss289 jss317 jss304">
@@ -50,17 +48,22 @@ class Header extends Component
                                     placeholder="Search"
                                     type="text"
                                     aria-label="Search"
-                                    value=""></input>
+                                    value="">    
+                                </input>
                             </div>
                         </div>
+                    </div>
+                </div>
+
+
                         <button
-                            className="jss244 jss218 jss220 jss223 jss189 jss197 jss214 jss217 jss278 jss277 "
+                            className="headerbuttons sidebarbutton buttonborder jss217 jss278 jss277 "
                             tabindex="0"
                             type="button"
                             aria-label="edit">
-                            <span className="jss219">
+                            <span className="headericons">
                                 <svg
-                                    className="jss146 jss287 jss279"
+                                    className="svgicon jss287 jss279"
                                     focusable="false"
                                     viewBox="0 0 24 24"
                                     aria-hidden="true"
@@ -69,17 +72,20 @@ class Header extends Component
                                         d="M15.5 14h-.79l-.28-.27C15.41 12.59 16 11.11 16 9.5 16 5.91 13.09 3 9.5 3S3 5.91 3 9.5 5.91 16 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"></path>
                                     <path fill="none" d="M0 0h24v24H0z"></path>
                                 </svg>
+
                             </span>
-                            <span className="jss617"></span>
+
+                            <span className="endbutton"></span>
                         </button>
+                   
                         <button
-                            className="jss244 jss218 jss220 jss223 jss189 jss210 jss209 jss217 jss276"
+                            className="headerbuttons jss210 jss209 jss217 jss276"
                             tabindex="0"
                             type="button"
                             aria-label="Dashboard">
-                            <span className="jss219">
+                            <span className="headericons">
                                 <svg
-                                    className="jss146 jss287 jss280"
+                                    className="svgicon jss287 jss280"
                                     focusable="false"
                                     viewBox="0 0 24 24"
                                     aria-hidden="true"
@@ -91,18 +97,19 @@ class Header extends Component
                                     <span className="jss275">Dashboard</span>
                                 </div>
                             </span>
-                            <span className="jss617"></span>
+                            <span className="endbutton"></span>
                         </button>
+     */}                        
                         <div className="jss286">
                             <button
-                                className="jss244 jss218 jss220 jss223 jss189 jss210 jss217 jss276"
+                                className="headerbuttons jss210 jss217 jss276"
                                 tabindex="0"
                                 type="button"
                                 aria-label="Notifications"
                                 aria-haspopup="true">
-                                <span className="jss219">
+                                <span className="headericons">
                                     <svg
-                                        className="jss146 jss287 jss280"
+                                        className="svgicon jss287 jss280"
                                         focusable="false"
                                         viewBox="0 0 24 24"
                                         aria-hidden="true"
@@ -115,17 +122,19 @@ class Header extends Component
                                         <span className="jss275">Notification</span>
                                     </div>
                                 </span>
-                                <span className="jss617"></span>
+                                <span className="endbutton"></span>
                             </button>
                         </div>
+                      
+                        
                         <button
-                            className="jss244 jss218 jss220 jss223 jss189 jss210 jss217 jss276"
+                            className="headerbuttons jss210 jss217 jss276"
                             tabindex="0"
                             type="button"
                             aria-label="Person">
-                            <span className="jss219">
+                            <span className="headericons">
                                 <svg
-                                    className="jss146 jss287 jss280"
+                                    className="svgicon jss287 jss280"
                                     focusable="false"
                                     viewBox="0 0 24 24"
                                     aria-hidden="true"
@@ -138,19 +147,22 @@ class Header extends Component
                                     <span className="jss275">Profile</span>
                                 </div>
                             </span>
-                            <span className="jss617"></span>
+                            <span className="endbutton"></span>
                         </button>
+  {/*   
                     </div>
                 </div>
+
                 <div className="jss71">
-                    <button
-                        className="jss244 jss218 jss220 jss223 jss189 jss210 jss217"
+  
+                <button
+                        className="headerbuttons jss210 jss217"
                         tabindex="0"
                         type="button"
                         aria-label="open drawer">
-                        <span className="jss219">
+                        <span className="headericons">
                             <svg
-                                className="jss146"
+                                className="svgicon"
                                 focusable="false"
                                 viewBox="0 0 24 24"
                                 aria-hidden="true"
@@ -159,13 +171,18 @@ class Header extends Component
                                 <path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"></path>
                             </svg>
                         </span>
-                        <span className="jss617"></span>
+                        <span className="endbutton"></span>
                     </button>
+ 
+
+
+
                 </div>
-            </div>
-            </header>
-        );
-    }
+
+            </div> */}
+    </header>
+    );
+}
 
 }
 
